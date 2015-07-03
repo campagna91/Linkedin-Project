@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user type="basic">
+        <email>basic@gmail.com</email>
+        <password>ciao</password>
+        <image>./resource/default.png</image>
+        <profile>
+            <name>basic</name>
+            <surname>basic</surname>
+            <nationality>italiana</nationality>
+            <birth>1991-04-07</birth>
+            <contacts>
+                <contact>basic3@gmail.com</contact>
+                <contact>basic2@gmail.com</contact>
+                <contact>basic@gmail.com</contact>
+            </contacts>
+        </profile>
+        <works>
+            <work>
+                <start>2010-02-03</start>
+                <end>2010-06-03</end>
+                <sector>metalmeccanica</sector>
+                <job>capo reparto</job>
+                <skills>
+                    <skill>sorveglianza</skill>
+                    <skill>rispetto</skill>
+                    <skill>onore</skill>
+                </skills>
+            </work>
+            <work>
+                <start>2010-03-06</start>
+                <end>2010-07-08</end>
+                <sector>servizi</sector>
+                <job>scommesse</job>
+                <skills>
+                    <skill>occhio al cliente</skill>
+                    <skill>sorriso perenne</skill>
+                </skills>
+            </work>
+        </works>
+        <languages>
+            <language>
+                <name>inglese</name>
+                <heard>2</heard>
+                <spoken>4</spoken>
+                <written>3</written>
+            </language>
+            <language>
+                <name>francese</name>
+                <heard>4</heard>
+                <spoken>5</spoken>
+                <written>3</written>
+            </language>
+        </languages>
+        <qualifications>
+            <qualification>
+                <name>licenza media</name>
+                <year>1991</year>
+            </qualification>
+        </qualifications>
+        <net>
+            <contact>business@gmail.com</contact>
+        </net>
+    </user>
+    <user type="business">
+        <email>business@gmail.com</email>
+        <password>ciao</password>
+        <image>./resource/default.png</image>
+        <profile>
+            <name>business</name>
+            <surname>business</surname>
+            <nationality>italiano</nationality>
+            <birth>1991-04-07</birth>
+            <contacts>
+                <contact>business3@gmail.com</contact>
+                <contact>business2@gmail.com</contact>
+                <contact>business@gmail.com</contact>
+            </contacts>
+        </profile>
+        <works>
+            <work>
+                <start>2010-03-07</start>
+                <end>2015-04-07</end>
+                <sector>Servizi</sector>
+                <job>Bagnino</job>
+                <skills>
+                    <skill>Controllo situazione</skill>
+                    <skill>Nuoto in velocità</skill>
+                    <skill>Trattengo il fiato a lungo</skill>
+                </skills>
+            </work>
+        </works>
+        <languages>
+            <language>
+                <name>italiano</name>
+                <heard>4</heard>
+                <spoken>2</spoken>
+                <written>4</written>
+            </language>
+            <language>
+                <name>francese</name>
+                <heard>2</heard>
+                <spoken>1</spoken>
+                <written>5</written>
+            </language>
+        </languages>
+        <qualifications>
+            <qualification>
+                <name>licenza media</name>
+                <year>1991</year>
+            </qualification>
+        </qualifications>
+        <net>
+            <contact>basic@gmail.com</contact>
+        </net>
+    </user>
+    <user type="executive">
+        <email>executive@gmail.com</email>
+        <password>ciao</password>
+        <image>./resource/default.png</image>
+        <profile>
+            <name>executive</name>
+            <surname>executive</surname>
+            <nationality>cubana</nationality>
+            <birth>1990-04-03</birth>
+            <contacts>
+                <contact>executive2@gmail.com</contact>
+                <contact>executive1@gmail.com</contact>
+                <contact>executive@gmail.com</contact>
+            </contacts>
+        </profile>
+        <works>
+            <work>
+                <start>2009-06-04</start>
+                <end>2010-07-05</end>
+                <sector>Servizi</sector>
+                <job>investigatore privato</job>
+                <skills>
+                    <skill>attesa perenne</skill>
+                    <skill>velocità d'azione</skill>
+                    <skill>non farsi sgammare</skill>
+                </skills>
+            </work>
+        </works>
+        <languages>
+            <language>
+                <name>tedesco</name>
+                <heard>2</heard>
+                <spoken>3</spoken>
+                <written>2</written>
+            </language>
+            <language>
+                <name>francese</name>
+                <heard>2</heard>
+                <spoken>5</spoken>
+                <written>2</written>
+            </language>
+            <language>
+                <name>inglese</name>
+                <heard>3</heard>
+                <spoken>3</spoken>
+                <written>5</written>
+            </language>
+        </languages>
+        <qualifications>
+            <qualification>
+                <name>licenza media</name>
+                <year>1991</year>
+            </qualification>
+        </qualifications>
+        <net>
+            <contact>basic@gmail.com</contact>
+        </net>
+    </user>
+</users>

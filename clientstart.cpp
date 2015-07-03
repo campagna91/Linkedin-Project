@@ -12,6 +12,7 @@ ClientStart::ClientStart(QWidget *parent) :
     setup();
     feed(0,0);
     connect(db,SIGNAL(s_feed(int,int)),this,SLOT(feed(int,int)));
+    cout<<"CREATE CLIENTSTART"<<endl;
 }
 ClientStart::~ClientStart()
 {

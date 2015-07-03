@@ -8,10 +8,11 @@
 
 Qualifications::Qualifications(string n,QDate a) : name(n), year(a)
 {
+    cout<<"CREATE QULAIFICATION"<<endl;
 }
 Qualifications::~Qualifications()
 {
-    cout<<"DELETE QUALIFICATION"<<endl;
+    cout<<"-- DELETE QUALIFICATION"<<endl;
 }
 string Qualifications::getName() const
 {

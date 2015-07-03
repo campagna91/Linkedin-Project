@@ -12,10 +12,11 @@ Languages::Languages(string n,int s,int p, int a)
         name=""; written = spoken = heard = 0;
     }
     else { name = n; written = s; spoken = p; heard = a; }
+    cout<<"CREATE LANGUAGE"<<endl;
 }
 Languages::~Languages()
 {
-    cout<<"DELETE LANGUAGE"<<endl;
+    cout<<"-- DELETE LANGUAGE"<<endl;
 }
 string Languages::getName() const
 {

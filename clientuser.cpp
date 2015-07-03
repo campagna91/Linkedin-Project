@@ -21,6 +21,7 @@ ClientUser::ClientUser(Linkediner * user, Db * link, QWidget *parent) :
     loadUserDetails();
     loadCount();
     validate = &(dynamic_cast<ClientStart*>(this->parent()))->isValid;
+    cout<<"CREATE CLIENTUSER"<<endl;
 }
 ClientUser::~ClientUser()
 {

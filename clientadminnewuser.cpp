@@ -1,6 +1,4 @@
 #include "clientadminnewuser.h"
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  *   PUBLIC METHOD
@@ -15,12 +13,11 @@ ClientAdminNewUser::ClientAdminNewUser(Db * link, QWidget *parent) :
     dialogNewUserErrUsername->hide();
     dialogNewUserTypeBasic->setChecked(true);
     validate = &(dynamic_cast<ClientStart*>(parent->parent()))->isValid;
+    cout<<"CREATE CLIENTADMINNEWUSER"<<endl;
 }
 ClientAdminNewUser::~ClientAdminNewUser()
 {
 }
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  *   PRIVATE SLOTS
@@ -55,7 +52,8 @@ void ClientAdminNewUser::on_dialogNewUserCreate_clicked()
                                                     list<Linkediner*>(),
                                                     list<Qualifications*>()
                                                     ));
-            else db->addUser( new LinkedinerExecutive(dialogNewUserUsername->text().toStdString(),
+            else
+                db->addUser( new LinkedinerExecutive(dialogNewUserUsername->text().toStdString(),
                                                      dialogNewUserPassword->text().toStdString(),
                                                      tmp_image,
                                                      Profile(),
@@ -76,14 +74,11 @@ void ClientAdminNewUser::on_dialogNewUserBack_clicked()
 {
     emit s_exit();
 }
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  *   PRIVATE METHOD
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
 void ClientAdminNewUser::setup(){
     setObjectName("DialogNewUser");
     resize(400, 441);

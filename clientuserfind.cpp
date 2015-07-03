@@ -13,6 +13,7 @@ ClientUserFind::ClientUserFind(Db * link, Linkediner * u, QWidget *parent) :
     finderAdd->hide();
     connect(this,SIGNAL(s_exit()),this->parent(),SLOT(exitGuiFinder()));
     connect(this->parent(),SIGNAL(s_find(QString)),this,SLOT(find(QString)));
+    cout<<"CREATE CLIENTUSERFIND"<<endl;
 }
 ClientUserFind::~ClientUserFind()
 {

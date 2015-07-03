@@ -9,11 +9,11 @@
 Linkediner::Linkediner(string u, string p, string i, Profile pr, list<Works*> w, list<Languages*> l, list<Linkediner*> n, list<Qualifications*> q):
     email(u), password(p), photo(i), profile(pr), works(w), net(n), languages(l), qualifications(q)
 {
-
+    cout<<"CREATE LINKEDINER"<<endl;
 }
 Linkediner::~Linkediner()
 {
-    cout<<"DELETE LINKEDINER"<<endl;
+    cout<<"-- DELETE LINKEDINER"<<endl;
 }
 string Linkediner::getEmail() const
 {

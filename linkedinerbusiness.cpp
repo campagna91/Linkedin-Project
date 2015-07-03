@@ -9,11 +9,12 @@
 LinkedinerBusiness::LinkedinerBusiness(string u, string p, string i, Profile pr, list<Works*> w, list<Languages*> l, list<Linkediner*> n, list<Qualifications*> q):
     Linkediner(u,p,i,pr,w,l,n,q)
 {
+    cout<<"CREATE LINKEDINER-BUSINESS"<<endl;
 }
 LinkedinerBusiness::~LinkedinerBusiness()
 {
     deallocate();
-    cout<<"DELETE LINKEDINER-BUSINESS";
+    cout<<"-- DELETE LINKEDINER-BUSINESS";
 }
 Linkediner * LinkedinerBusiness::find(Db * db, const string & uToFind)
 {

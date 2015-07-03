@@ -9,10 +9,11 @@
 Works::Works(QDate i,QDate f,string s,string l,list<string> m):
     start(i),end(f),sector(s),job(l),skills(m)
 {
+    cout<<"CREATE WORK"<<endl;
 }
 Works::~Works()
 {
-    cout<<"DELETE WORK"<<endl;
+    cout<<"-- DELETE WORK"<<endl;
 }
 QDate Works::getStart() const
 {

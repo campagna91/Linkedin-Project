@@ -9,12 +9,12 @@
 LinkedinerExecutive::LinkedinerExecutive(string u, string p, string i, Profile pr, list<Works*> w, list<Languages*> l, list<Linkediner*> n, list<Qualifications*> q):
     Linkediner(u,p,i,pr,w,l,n,q)
 {
-
+    cout<<"CREATE LINKEDINER-EXECUTIVE"<<endl;
 }
 LinkedinerExecutive::~LinkedinerExecutive()
 {
     deallocate();
-    cout<<"DELETE LINKEDINER-EXECUTIVE"<<endl;
+    cout<<"-- DELETE LINKEDINER-EXECUTIVE"<<endl;
 }
 Linkediner * LinkedinerExecutive::find(Db * db, const string & uToFind)
 {

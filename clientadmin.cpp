@@ -25,7 +25,7 @@ ClientAdmin::ClientAdmin(Db * link,QWidget *parent) :
 }
 ClientAdmin::~ClientAdmin()
 {
-
+    cout<<"CREATE CLIENTADMIN"<<endl;
 }
 void ClientAdmin::loadCount()
 {

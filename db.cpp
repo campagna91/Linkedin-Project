@@ -8,11 +8,13 @@
 Db::Db(string n,string p,list<Linkediner*>u):name(n),path(p),db(u)
 {
    emit s_feed(0,0);
+    cout<<"CREATE DB"<<endl;
 }
 Db::~Db()
 {
     list<Linkediner*>::iterator i = db.begin();
     for( ; i != db.end(); ++i) delete *i;
+    cout<<"-- DELETE DB"<<endl;
 }
 void Db::load(string p)
 {

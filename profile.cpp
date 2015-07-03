@@ -7,11 +7,11 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 Profile::Profile(string n, string c, string na,list<string> cn):name(n),surname(c),nationality(na),contacts(cn)
 {
-
+    cout<<"CREATE PROFILE"<<endl;
 }
 Profile::~Profile()
 {
-    cout<<"DELETE PROFILE"<<endl;
+    cout<<"-- DELETE PROFILE"<<endl;
 }
 
 string Profile::getName() const

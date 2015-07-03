@@ -8,12 +8,12 @@
 LinkedinerBasic::LinkedinerBasic(string u, string p, string i, Profile pr, list<Works*> w, list<Languages*> l, list<Linkediner*> n, list<Qualifications*> q):
     Linkediner(u,p,i,pr,w,l,n,q)
 {
-
+    cout<<"CREATE LINKEDINER-BASIC"<<endl;
 }
 LinkedinerBasic::~LinkedinerBasic()
 {
     deallocate();
-    cout<<"DELETE LINKEDINER-BASIC"<<endl;
+    cout<<"-- DELETE LINKEDINER-BASIC"<<endl;
 }
 Linkediner * LinkedinerBasic::find(Db * db, const string & uToFind)
 {
